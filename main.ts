@@ -1,0 +1,10 @@
+input.onButtonPressed(Button.A, function () {
+    radio.sendString(":)")
+})
+radio.onReceivedString(function (receivedString) {
+    basic.showString(receivedString)
+})
+radio.setGroup(134)
+basic.forever(function () {
+	
+})
